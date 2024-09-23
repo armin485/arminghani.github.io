@@ -1,17 +1,17 @@
 ---
 # Display name
-title: 吳健雄
+title: Armin Ghani
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: Armin Ghani
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Armin
+last_name: Ghani
 
 # Status emoji
 status:
-  icon: ☕️
+  icon: 🤪
 
 # Is this the primary user of the site?
 superuser: true
@@ -20,12 +20,12 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Chief Scientist
+role: Embedded Systems Engineer
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: OpenAI
-    url: https://openai.com/
+  - name: Sateliot
+    url: https://sateliot.com/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
@@ -47,82 +47,116 @@ profiles:
     url: https://orcid.org/
 
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Embedded Systems
+  - Single Board Computers
+  - Software Defined Radios
+  - Computational Accelerating Devices (FPGAs, DSPs)
+  - Space Missions
+  - Satellite Systems
+  - Linux and FOSS
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: M.S.C Satellite Systems Engineering
+    institution: Iran University of Science and Technology (IUST)
+    date_start: 2013-09-15
+    date_end: 2015-08-31
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.8/4.0
+      Thesis on Optimal Antenna Array Elements Placement in a Direction-Of-Arrival Estimation System. Supervised by [Prof M.S.Sedighy]. Presented papers at 3 IEEE conferences.
+  - area: B.S.C Electronics Engineering
+    institution: Lorestan University
+    date_start: 2010-09-15
+    date_end: 2013-08-31
 
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.4/4.0
-      
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
-    company_url: ''
+  - position: Embedded Systems Engineer
+    company_name: Sateliot
+    company_url: 'https://sateliot.com/'
     company_logo: ''
-    date_start: 2021-01-01
+    date_start: 2022-08-01
     date_end: ''
     summary: |2-
       Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
-    company_url: ''
+      - Satellite payload embedded hardware and software developer on Xilinx Ultrascale+ devices
+      - Embedded Linux developer
+      - Test and Integration of 5G core network and RAN applications on embedded system
+  - position: Research Engineer
+    company_name: Centre Tecnològic de Telecomunicacions de Catalunya (CTTC)
+    company_url: 'https://www.cttc.cat/'
     company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+    date_start: 2020-09-01
+    date_end: 2022-07-31
     summary: |
       Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Research on applications of ML on 5G physical layer
+      - Implementing of ML empowered 5G physical layer algorithms on Ettus Research USRP Software-Defined Radio systems
+  - position: Embedded Systems Engineer
+    company_name: Ideh-Negar Energy Sabz
+    company_url: 'http://www.ideanegar.com/'
+    company_logo: ''
+    date_start: 2019-12-01
+    date_end: 2020-09-31
+    summary: |
+      Responsibilities include:
+      - Embedded software developer in C/C++ on STM32
+      - Embedded hardware test and integration
+      - Test and integration of AIS marine positioning and telecommunication systems
+  - position: Embedded Systems and DSP Developer on FPGA
+    company_name: ISUT Space Research Center
+    date_start: 2016-07-01
+    date_end: 2019-12-31
+    summary: |
+      Responsibilities include:
+      - Simulation, design and implementing of CCSDS satellite communication subsystems on space and ground station such as payload high-rate transceiver and satellite TT&C
+      - DSP implementation via MATLAB and SysGen on Xilinx ZYNQ devices
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
   - name: Technical Skills
     items:
-      - name: Python
+      - name: Linux
+        description: ''
+        percent: 90
+        icon: code-bracket
+      - name: C/C++
         description: ''
         percent: 80
-        icon: code-bracket
-      - name: Data Science
-        description: ''
-        percent: 100
         icon: chart-bar
-      - name: SQL
+      - name: Yocto-Petalinux
         description: ''
-        percent: 40
+        percent: 70
+        icon: circle-stack
+      - name: Git
+        description: ''
+        percent: 70
+        icon: circle-stack
+      - name: Python
+        description: ''
+        percent: 50
+        icon: circle-stack
+      - name: Schematics and PCB
+        description: ''
+        percent: 90
+        icon: circle-stack
+      - name: Schematics and PCB
+        description: ''
+        percent: 90
+        icon: circle-stack
+      - name: Electronics/Radio Test Equipments
+        description: ''
+        percent: 90
+        icon: circle-stack
+      - name: Docker
+        description: ''
+        percent: 60
+        icon: circle-stack
+      - name: Matlab
+        description: ''
+        percent: 60
+        icon: circle-stack
+      - name: FPGA and SoC
+        description: ''
+        percent: 70
         icon: circle-stack
   - name: Hobbies
     color: '#eeac02'
@@ -132,55 +166,30 @@ skills:
         description: ''
         percent: 60
         icon: person-simple-walk
-      - name: Cats
+      - name: Cocktails
         description: ''
         percent: 100
         icon: cat
-      - name: Photography
+      - name: Rock'n'Roll
         description: ''
         percent: 80
         icon: camera
+      - name: Mountain biking
+        description: ''
+        percent: 50
+        icon: camera
 
 languages:
-  - name: English
+  - name: Persian/Farsi
     percent: 100
-  - name: Chinese
+  - name: English
     percent: 75
-  - name: Portuguese
-    percent: 25
+  - name: Spanish
+    percent: 30
 
-# Awards.
-#   Add/remove as many awards below as you like.
-#   Only `title`, `awarder`, and `date` are required.
-#   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
-awards:
-  - title: Neural Networks and Deep Learning
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
-    date: '2023-11-25'
-    awarder: Coursera
-    icon: coursera
-    summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-  - title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    date: '2023-07-01'
-    awarder: edX
-    icon: edx
-    summary: |
-      Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-  - title: 'Object-Oriented Programming in R'
-    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-    certificate_url: https://www.datacamp.com
-    date: '2023-01-21'
-    awarder: datacamp
-    icon: datacamp
-    summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
+
 ---
 
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Embedded engineer with expertise in Xilinx and STM32 device families as well as skills in embedded Linux and C/C++, Python programming. Background in Satellite telecom, Software-Defined Radios and ML.
